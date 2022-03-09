@@ -31,15 +31,11 @@ html a:hover {
 }
 .container {
   width: 1140px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 0 auto;
   padding: 0 15px;
 }
-/* .header {
-      position: fixed;
-      background-color: var(--accent-light);
-     
-    } */
+
 .header {
   top: 0;
   width: 100%;
@@ -79,18 +75,12 @@ h1 {
   content: "";
   width: 40px;
   height: 40px;
-  background: url("/img/iconmonstr-cv-4.svg");
+  background: url("./img/iconmonstr-cv-4.svg");
   background-repeat: no-repeat;
   background-position: fixed;
   background-size: contain;
 }
-/* .header-logo {
-      text-shadow: 10px 10px 13px #0606e4;
-      margin-right: 150px;
-      font-size: 35px;
-      font-weight: 800px;
-      letter-spacing: 3px;
-    } */
+
 .header-logo img {
   padding: 50px 0;
   width: 100px;
@@ -140,7 +130,7 @@ h1::before {
   content: "";
   width: 40px;
   height: 40px;
-  background-image: url("/img/iconmonstr-star-2.svg");
+  background-image: url("./img/iconmonstr-star-2.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -150,7 +140,7 @@ h1::after {
   content: "";
   width: 40px;
   height: 40px;
-  background-image: url("/img/iconmonstr-star-2.svg");
+  background-image: url("./img/iconmonstr-star-2.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -285,7 +275,7 @@ h2 {
   padding: 0;
   list-style: none;
   display: grid;
-  gap: 30px;
+  gap: 15px;
   grid-template-columns: 1fr;
 }
 
@@ -293,7 +283,7 @@ h2 {
   border: 1px solid black;
   border-radius: 10px;
   overflow: hidden;
-  margin: 35px 0;
+  /* margin: 35px 0; */
 }
 .portfolio-list a {
   padding: 10px 15px;
@@ -353,7 +343,7 @@ h2 {
     margin-bottom: 0;
   }
 
-  .news-list {
+  .portfolio-list {
     grid-template-columns: repeat(3, 1fr);
   }
 }
